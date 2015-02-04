@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		4AD39CFC1A82916C003486DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD39CFB1A82916C003486DF /* AppDelegate.swift */; };
 		4AD39CFF1A82916D003486DF /* TestingMoves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AD39CFD1A82916D003486DF /* TestingMoves.xcdatamodeld */; };
-		4AD39D011A82916D003486DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD39D001A82916D003486DF /* ViewController.swift */; };
+		4AD39D011A82916D003486DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD39D001A82916D003486DF /* HomeViewController.swift */; };
 		4AD39D041A82916D003486DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD39D021A82916D003486DF /* Main.storyboard */; };
 		4AD39D061A82916D003486DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD39D051A82916D003486DF /* Images.xcassets */; };
 		4AD39D091A82916D003486DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD39D071A82916D003486DF /* LaunchScreen.xib */; };
 		4AD39D151A82916D003486DF /* TestingMovesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD39D141A82916D003486DF /* TestingMovesTests.swift */; };
+		4AD39D1F1A82AC0B003486DF /* SquareHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD39D1E1A82AC0B003486DF /* SquareHeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		4AD39CFA1A82916C003486DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD39CFB1A82916C003486DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD39CFE1A82916D003486DF /* TestingMoves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestingMoves.xcdatamodel; sourceTree = "<group>"; };
-		4AD39D001A82916D003486DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AD39D001A82916D003486DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4AD39D031A82916D003486DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AD39D051A82916D003486DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4AD39D081A82916D003486DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4AD39D0E1A82916D003486DF /* TestingMovesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingMovesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD39D131A82916D003486DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD39D141A82916D003486DF /* TestingMovesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingMovesTests.swift; sourceTree = "<group>"; };
+		4AD39D1E1A82AC0B003486DF /* SquareHeroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareHeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				4AD39CFB1A82916C003486DF /* AppDelegate.swift */,
-				4AD39D001A82916D003486DF /* ViewController.swift */,
+				4AD39D001A82916D003486DF /* HomeViewController.swift */,
+				4AD39D1E1A82AC0B003486DF /* SquareHeroView.swift */,
 				4AD39D021A82916D003486DF /* Main.storyboard */,
 				4AD39D051A82916D003486DF /* Images.xcassets */,
 				4AD39D071A82916D003486DF /* LaunchScreen.xib */,
@@ -215,7 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD39D011A82916D003486DF /* ViewController.swift in Sources */,
+				4AD39D011A82916D003486DF /* HomeViewController.swift in Sources */,
+				4AD39D1F1A82AC0B003486DF /* SquareHeroView.swift in Sources */,
 				4AD39CFC1A82916C003486DF /* AppDelegate.swift in Sources */,
 				4AD39CFF1A82916D003486DF /* TestingMoves.xcdatamodeld in Sources */,
 			);
